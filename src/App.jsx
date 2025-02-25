@@ -11,6 +11,7 @@ export default function App() {
     <Router>
       <Header />
       <main>
+        {/* Aqui está associando o endereço com a página */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

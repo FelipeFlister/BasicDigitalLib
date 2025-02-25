@@ -23,7 +23,6 @@ export function Footer() {
                 <a href="https://github.com/FelipeFlister/BasicDigitalLib" target="blank"><h4>Confira o projeto:</h4></a>
                 <a href="https://github.com/FelipeFlister/BasicDigitalLib" target="blank"><img src="../src/assets/img/github-icon.png" alt="" id="GitHub-Logo" /></a>
             </div>
-                
         </footer>
     )
 }

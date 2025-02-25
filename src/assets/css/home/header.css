@@ -1,7 +1,7 @@
 header{
     background-color: gainsboro;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 #logo-nav{
@@ -25,20 +25,4 @@ nav ul a:hover{
 }
 #change-theme-btn:hover{
     filter: drop-shadow(0 0 2em #000000aa);
-}
-.dark-mode {
-    background-color: black;
-    color: white;
-}
-.dark-mode button{
-    background-color: black;
-    color: white;
-}
-.light-mode {
-    background-color: rgb(172, 172, 172);
-    color: black;
-}
-.light-mode button{
-    background-color: rgb(172, 172, 172);
-    color: black;
 }

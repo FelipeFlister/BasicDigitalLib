@@ -1,6 +1,5 @@
 footer{
-    background-color: black;
-    color: white;
+    background-color: #697E91;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -8,6 +7,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: #95E8FC .2rem solid;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #Credits{
     display: flex;
@@ -15,22 +16,41 @@ footer{
     width: 25%;
     margin-left: 7rem;
 }
+#Authors > h4{
+    color: #95E8FC;
+}
 #Authors > ul{
     display: flex;
     column-gap: 1rem;
     width: 13rem;
     list-style: none;
+    color: white;
+    font-weight: 500;
 }
 #Copy{
     width: 25%;
     text-align: center;
+    
+    font-weight: bolder;
+    color: white;
+}
+#README{
+    color: #FFDF57;
+}
+#README:hover{
+    filter: drop-shadow(0 0 .5rem #FFDF57);
 }
 #GitHub-Project{
     width: 25%;
     display: flex;
     align-items: center;
     column-gap: 2rem;
+    color: #95E8FC;
+}
+#GitHub-Project:hover{
+    filter: drop-shadow(0 0 .5rem #95e8fc);
 }
 #GitHub-Logo{
     width: 3rem;
+    filter: invert(100%);
 }

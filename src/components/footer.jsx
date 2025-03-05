@@ -12,7 +12,7 @@ export function Footer() {
                         <li>João.P</li>
                         <li>Rafael.C</li>
                     </ul>
-                    <h5>O Basic Digital Libray tem apenas fins educativos, confira o nosso <a href="../README.md">README</a></h5>
+                    <h5>O Basic Digital Libray tem apenas fins educativos, confira o nosso <a href="../README.md" id="README">README</a></h5>
                 </span>
             </div>
             <div id="Copy">
